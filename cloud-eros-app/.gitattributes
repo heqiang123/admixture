@@ -4,4 +4,5 @@
 *.java linguist-language=weex
 *.xml linguist-language=weex
 *.vue linguist-language=weex
-*.o linguist-language=weex
+*.m linguist-language=weex
+*.h linguist-language=weex
