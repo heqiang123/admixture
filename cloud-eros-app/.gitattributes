@@ -1,0 +1,5 @@
+*.js linguist-language=weex
+*.css linguist-language=weex
+*.html linguist-language=weex
+*.java linguist-language=weex
+*.xml linguist-language=weex
