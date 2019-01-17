@@ -1,9 +1,0 @@
-*.js linguist-language=weex
-*.css linguist-language=weex
-*.html linguist-language=weex
-*.java linguist-language=weex
-*.xml linguist-language=weex
-*.vue linguist-language=weex
-*.m linguist-language=weex
-*.h linguist-language=weex
-*.sh linguist-language=weex
