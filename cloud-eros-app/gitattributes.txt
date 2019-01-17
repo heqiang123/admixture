@@ -1,3 +1,0 @@
-*.css linguist-language=weex
-*.html linguist-language=weex
-*.js linguist-language=weex
