@@ -2,3 +2,4 @@
 *.css linguist-language=weex
 *.html linguist-language=weex
 *.xml linguist-language=weex
+*.java linguist-language=weex
