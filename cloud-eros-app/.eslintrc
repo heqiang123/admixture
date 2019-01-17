@@ -1,0 +1,41 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "mocha": true,
+    "browser": true
+  },
+  "plugins": [
+    "html"
+  ],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "globals": {
+    "weex": true,
+    "Vue": true
+  },
+  "rules": {
+    "indent": [2, 4],//缩进风格
+    "quotes": [ "error", "single" ],//引号类型
+    "handle-callback-err": 0,//nodejs处理错误
+    "camelcase": 2,//强制驼峰法命名
+    "no-const-assign": 2,//禁止修改const声明的变量
+    "no-dupe-keys": 2,//在创建对象字面量时不允许键重复 {a:1,a:1}
+    "no-dupe-args": 2,//函数参数不能重复
+    "no-duplicate-case": 2,//switch中的case标签不能重复
+    "no-empty": 2,//块语句中的内容不能为空
+    "no-eq-null": 2,//禁止对null使用==或!=运算符
+    "no-extra-parens": 2,//禁止非必要的括号
+    "no-extra-semi": 2,//禁止多余的冒号
+    "no-func-assign": 2,//禁止重复的函数声明
+    "no-lone-blocks": 2,//禁止不必要的嵌套块
+    "no-multi-spaces": 2,//不能用多余的空格
+    "no-var": 1,//禁用var，用let和const代替
+    "prefer-const": 1 //首选const
+  },
+  "extends": [
+    "vue"
+  ],
+  "parser": "babel-eslint"
+}

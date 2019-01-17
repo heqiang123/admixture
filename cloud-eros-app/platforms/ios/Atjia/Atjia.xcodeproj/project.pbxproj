@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		546D30D821AC0550008E1E57 /* WXCustomEventModul.m in Sources */ = {isa = PBXBuildFile; fileRef = 546D30D721AC0550008E1E57 /* WXCustomEventModul.m */; };
+		54AEEAA521A2C06E002DEB74 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AEEAA421A2C06E002DEB74 /* libresolv.tbd */; };
+		54AEEAA721A2C077002DEB74 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AEEAA621A2C077002DEB74 /* Security.framework */; };
+		54AEEAA921A2C07E002DEB74 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AEEAA821A2C07E002DEB74 /* MobileCoreServices.framework */; };
+		54AEEAAB21A2C0A6002DEB74 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AEEAAA21A2C0A6002DEB74 /* AVFoundation.framework */; };
+		54AEEAAD21A2C0B0002DEB74 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AEEAAC21A2C0B0002DEB74 /* CoreLocation.framework */; };
+		54AEEAAF21A2C149002DEB74 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AEEAAE21A2C149002DEB74 /* UserNotifications.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		54AEEAB321A2C62C002DEB74 /* GTExtensionSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AEEAB121A2C62C002DEB74 /* GTExtensionSDK.framework */; };
+		54AEEAB421A2C62C002DEB74 /* GTSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AEEAB221A2C62C002DEB74 /* GTSDK.framework */; };
+		54FEEA10219AD7B200D88F75 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FEEA0F219AD7B200D88F75 /* libsqlite3.tbd */; };
+		54FEEA12219AD7C400D88F75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FEEA11219AD7C400D88F75 /* CoreGraphics.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		54FEEA14219AD7EA00D88F75 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FEEA13219AD7EA00D88F75 /* SystemConfiguration.framework */; };
+		54FEEA16219AD7F500D88F75 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FEEA15219AD7F500D88F75 /* CoreTelephony.framework */; };
+		54FEEA18219AD81400D88F75 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FEEA17219AD81400D88F75 /* libc++.tbd */; };
+		54FEEA1A219AD81C00D88F75 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FEEA19219AD81C00D88F75 /* libz.tbd */; };
+		54FEEA2B219ADA3B00D88F75 /* share in Resources */ = {isa = PBXBuildFile; fileRef = 54FEEA2A219ADA3B00D88F75 /* share */; };
+		54FEEA2D219ADA5C00D88F75 /* UMCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FEEA2C219ADA5C00D88F75 /* UMCommon.framework */; };
+		5680DE8DD045A000BB6831A0 /* libPods-Atjia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8472C96015D9CA13EDFB63EB /* libPods-Atjia.a */; };
+		9737F9ED1F384AFD00000800 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9737F9EC1F384AFD00000800 /* main.m */; };
+		9737F9F01F384AFD00000800 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9737F9EF1F384AFD00000800 /* AppDelegate.m */; };
+		9737F9F81F384AFD00000800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9737F9F71F384AFD00000800 /* Assets.xcassets */; };
+		9774A2C01FF0D82900029216 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9774A2C21FF0D82900029216 /* Launch Screen.storyboard */; };
+		9781D2F11FFF1D2A00BC2C34 /* bundle.zip in Resources */ = {isa = PBXBuildFile; fileRef = 9781D2EF1FFF1D2A00BC2C34 /* bundle.zip */; };
+		9781D2F21FFF1D2A00BC2C34 /* bundle.config in Resources */ = {isa = PBXBuildFile; fileRef = 9781D2F01FFF1D2A00BC2C34 /* bundle.config */; };
+		97A898EA1FB57A9E0095D77C /* eros.native.json in Resources */ = {isa = PBXBuildFile; fileRef = 97A898E91FB57A9D0095D77C /* eros.native.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		098403C8D487D468608DB7BF /* Pods-Atjia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atjia.release.xcconfig"; path = "Pods/Target Support Files/Pods-Atjia/Pods-Atjia.release.xcconfig"; sourceTree = "<group>"; };
+		546D30D621AC0550008E1E57 /* WXCustomEventModul.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXCustomEventModul.h; sourceTree = "<group>"; };
+		546D30D721AC0550008E1E57 /* WXCustomEventModul.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXCustomEventModul.m; sourceTree = "<group>"; };
+		54AEEAA421A2C06E002DEB74 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		54AEEAA621A2C077002DEB74 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		54AEEAA821A2C07E002DEB74 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		54AEEAAA21A2C0A6002DEB74 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		54AEEAAC21A2C0B0002DEB74 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		54AEEAAE21A2C149002DEB74 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		54AEEAB121A2C62C002DEB74 /* GTExtensionSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTExtensionSDK.framework; sourceTree = "<group>"; };
+		54AEEAB221A2C62C002DEB74 /* GTSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTSDK.framework; sourceTree = "<group>"; };
+		54AEEB0721A6B81C002DEB74 /* UMShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMShare.framework; sourceTree = "<group>"; };
+		54AEEB0821A6B820002DEB74 /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
+		54FEEA0F219AD7B200D88F75 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		54FEEA11219AD7C400D88F75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		54FEEA13219AD7EA00D88F75 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		54FEEA15219AD7F500D88F75 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		54FEEA17219AD81400D88F75 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		54FEEA19219AD81C00D88F75 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		54FEEA2A219ADA3B00D88F75 /* share */ = {isa = PBXFileReference; lastKnownFileType = folder; path = share; sourceTree = "<group>"; };
+		54FEEA2C219ADA5C00D88F75 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
+		8472C96015D9CA13EDFB63EB /* libPods-Atjia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Atjia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97155AC51F444E4200615307 /* Atjia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Atjia.entitlements; sourceTree = "<group>"; };
+		9737F9E81F384AFD00000800 /* Atjia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atjia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9737F9EC1F384AFD00000800 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9737F9EE1F384AFD00000800 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9737F9EF1F384AFD00000800 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9737F9F71F384AFD00000800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9737F9FC1F384AFD00000800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9774A2C11FF0D82900029216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		9774A2C31FF0D83500029216 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/Launch Screen.strings"; sourceTree = "<group>"; };
+		9774A2C41FF0D88700029216 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Launch Screen.strings"; sourceTree = "<group>"; };
+		9781D2EF1FFF1D2A00BC2C34 /* bundle.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = bundle.zip; sourceTree = "<group>"; };
+		9781D2F01FFF1D2A00BC2C34 /* bundle.config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bundle.config; sourceTree = "<group>"; };
+		97A898E91FB57A9D0095D77C /* eros.native.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eros.native.json; sourceTree = "<group>"; };
+		C7A22367CF88A3C831CA728B /* Pods-Atjia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atjia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Atjia/Pods-Atjia.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9737F9E51F384AFD00000800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AEEAAF21A2C149002DEB74 /* UserNotifications.framework in Frameworks */,
+				54AEEAAD21A2C0B0002DEB74 /* CoreLocation.framework in Frameworks */,
+				54AEEAAB21A2C0A6002DEB74 /* AVFoundation.framework in Frameworks */,
+				54FEEA16219AD7F500D88F75 /* CoreTelephony.framework in Frameworks */,
+				54AEEAB321A2C62C002DEB74 /* GTExtensionSDK.framework in Frameworks */,
+				54FEEA14219AD7EA00D88F75 /* SystemConfiguration.framework in Frameworks */,
+				54AEEAA921A2C07E002DEB74 /* MobileCoreServices.framework in Frameworks */,
+				54AEEAA721A2C077002DEB74 /* Security.framework in Frameworks */,
+				54AEEAB421A2C62C002DEB74 /* GTSDK.framework in Frameworks */,
+				54AEEAA521A2C06E002DEB74 /* libresolv.tbd in Frameworks */,
+				54FEEA1A219AD81C00D88F75 /* libz.tbd in Frameworks */,
+				54FEEA2D219ADA5C00D88F75 /* UMCommon.framework in Frameworks */,
+				54FEEA18219AD81400D88F75 /* libc++.tbd in Frameworks */,
+				54FEEA12219AD7C400D88F75 /* CoreGraphics.framework in Frameworks */,
+				54FEEA10219AD7B200D88F75 /* libsqlite3.tbd in Frameworks */,
+				5680DE8DD045A000BB6831A0 /* libPods-Atjia.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A2E579FBE46A81503ECFE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7A22367CF88A3C831CA728B /* Pods-Atjia.debug.xcconfig */,
+				098403C8D487D468608DB7BF /* Pods-Atjia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0E1742F2182AEBB6EEFE92C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54AEEAAE21A2C149002DEB74 /* UserNotifications.framework */,
+				54AEEAAC21A2C0B0002DEB74 /* CoreLocation.framework */,
+				54AEEAAA21A2C0A6002DEB74 /* AVFoundation.framework */,
+				54AEEAA821A2C07E002DEB74 /* MobileCoreServices.framework */,
+				54AEEAA621A2C077002DEB74 /* Security.framework */,
+				54AEEAA421A2C06E002DEB74 /* libresolv.tbd */,
+				54FEEA19219AD81C00D88F75 /* libz.tbd */,
+				54FEEA17219AD81400D88F75 /* libc++.tbd */,
+				54FEEA15219AD7F500D88F75 /* CoreTelephony.framework */,
+				54FEEA13219AD7EA00D88F75 /* SystemConfiguration.framework */,
+				54FEEA11219AD7C400D88F75 /* CoreGraphics.framework */,
+				54FEEA0F219AD7B200D88F75 /* libsqlite3.tbd */,
+				8472C96015D9CA13EDFB63EB /* libPods-Atjia.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54AEEAB021A2C62C002DEB74 /* GtSdkLib */ = {
+			isa = PBXGroup;
+			children = (
+				54AEEAB121A2C62C002DEB74 /* GTExtensionSDK.framework */,
+				54AEEAB221A2C62C002DEB74 /* GTSDK.framework */,
+			);
+			path = GtSdkLib;
+			sourceTree = "<group>";
+		};
+		9737F9DF1F384AFD00000800 = {
+			isa = PBXGroup;
+			children = (
+				9737F9EA1F384AFD00000800 /* Atjia */,
+				9737F9E91F384AFD00000800 /* Products */,
+				08A2E579FBE46A81503ECFE3 /* Pods */,
+				0E1742F2182AEBB6EEFE92C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9737F9E91F384AFD00000800 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9737F9E81F384AFD00000800 /* Atjia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9737F9EA1F384AFD00000800 /* Atjia */ = {
+			isa = PBXGroup;
+			children = (
+				54AEEB0821A6B820002DEB74 /* UShareUI.framework */,
+				54AEEB0721A6B81C002DEB74 /* UMShare.framework */,
+				54AEEAB021A2C62C002DEB74 /* GtSdkLib */,
+				54FEEA2C219ADA5C00D88F75 /* UMCommon.framework */,
+				54FEEA2A219ADA3B00D88F75 /* share */,
+				97155AC51F444E4200615307 /* Atjia.entitlements */,
+				9737F9EE1F384AFD00000800 /* AppDelegate.h */,
+				9737F9EF1F384AFD00000800 /* AppDelegate.m */,
+				9737F9F71F384AFD00000800 /* Assets.xcassets */,
+				9737F9FC1F384AFD00000800 /* Info.plist */,
+				9737F9EC1F384AFD00000800 /* main.m */,
+				9737F9EB1F384AFD00000800 /* Supporting Files */,
+				546D30D621AC0550008E1E57 /* WXCustomEventModul.h */,
+				546D30D721AC0550008E1E57 /* WXCustomEventModul.m */,
+			);
+			path = Atjia;
+			sourceTree = "<group>";
+		};
+		9737F9EB1F384AFD00000800 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9781D2F01FFF1D2A00BC2C34 /* bundle.config */,
+				9781D2EF1FFF1D2A00BC2C34 /* bundle.zip */,
+				97A898E91FB57A9D0095D77C /* eros.native.json */,
+				9774A2C21FF0D82900029216 /* Launch Screen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9737F9E71F384AFD00000800 /* Atjia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9737F9FF1F384AFD00000800 /* Build configuration list for PBXNativeTarget "Atjia" */;
+			buildPhases = (
+				9DE0048A6664627058926D93 /* [CP] Check Pods Manifest.lock */,
+				9737F9E41F384AFD00000800 /* Sources */,
+				9737F9E51F384AFD00000800 /* Frameworks */,
+				9737F9E61F384AFD00000800 /* Resources */,
+				3BD915CA46C2120DF93B6216 /* [CP] Copy Pods Resources */,
+				7511B9118828A789E867B8D1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Atjia;
+			productName = WeexEros;
+			productReference = 9737F9E81F384AFD00000800 /* Atjia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9737F9E01F384AFD00000800 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = benmu;
+				TargetAttributes = {
+					9737F9E71F384AFD00000800 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 24EZWA34Q6;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9737F9E31F384AFD00000800 /* Build configuration list for PBXProject "Atjia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+			);
+			mainGroup = 9737F9DF1F384AFD00000800;
+			productRefGroup = 9737F9E91F384AFD00000800 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9737F9E71F384AFD00000800 /* Atjia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9737F9E61F384AFD00000800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FEEA2B219ADA3B00D88F75 /* share in Resources */,
+				9737F9F81F384AFD00000800 /* Assets.xcassets in Resources */,
+				9781D2F21FFF1D2A00BC2C34 /* bundle.config in Resources */,
+				9781D2F11FFF1D2A00BC2C34 /* bundle.zip in Resources */,
+				97A898EA1FB57A9E0095D77C /* eros.native.json in Resources */,
+				9774A2C01FF0D82900029216 /* Launch Screen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BD915CA46C2120DF93B6216 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Atjia/Pods-Atjia-resources.sh",
+				"${PODS_ROOT}/AMap3DMap-NO-IDFA/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/ErosPluginAmap/Resources/greenPin.png",
+				"${PODS_ROOT}/ErosPluginAmap/Resources/greenPin@2x.png",
+				"${PODS_ROOT}/ErosPluginAmap/Resources/greenPin@3x.png",
+				"${PODS_ROOT}/ErosPluginBaseLibrary/Source/BMComponent/Calendar/Resources/CalendarLeftArrows@2x.png",
+				"${PODS_ROOT}/ErosPluginBaseLibrary/Source/BMComponent/Calendar/Resources/CalendarLeftArrows@3x.png",
+				"${PODS_ROOT}/ErosPluginBaseLibrary/Source/BMComponent/Calendar/Resources/CalendarReightArrows@2x.png",
+				"${PODS_ROOT}/ErosPluginBaseLibrary/Source/BMComponent/Calendar/Resources/CalendarReightArrows@3x.png",
+				"${PODS_ROOT}/ErosPluginBaseLibrary/Source/BMComponent/Chart/Resources/bm-chart.html",
+				"${PODS_ROOT}/ErosPluginBaseLibrary/Source/BMComponent/Chart/Resources/echarts.min.js",
+				"${PODS_ROOT}/ErosPluginBaseLibrary/Source/BMModule/Modal/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/ErosPluginBaseLibrary/Source/BMWeexExtension/Resources/arrowInKeyboard@2x.png",
+				"${PODS_ROOT}/ErosPluginBaseLibrary/Source/BMWeexExtension/Resources/bm-base.js",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+				"${PODS_ROOT}/WeexSDK/WeexSDK/Resources/native-bundle-main.js",
+				"${PODS_ROOT}/WeexSDK/WeexSDK/Resources/wx_load_error@3x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/greenPin.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/greenPin@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/greenPin@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CalendarLeftArrows@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CalendarLeftArrows@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CalendarReightArrows@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CalendarReightArrows@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bm-chart.html",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/echarts.min.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/arrowInKeyboard@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bm-base.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/native-bundle-main.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wx_load_error@3x.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Atjia/Pods-Atjia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7511B9118828A789E867B8D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Atjia/Pods-Atjia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE0048A6664627058926D93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Atjia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9737F9E41F384AFD00000800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9737F9F01F384AFD00000800 /* AppDelegate.m in Sources */,
+				546D30D821AC0550008E1E57 /* WXCustomEventModul.m in Sources */,
+				9737F9ED1F384AFD00000800 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9774A2C21FF0D82900029216 /* Launch Screen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9774A2C11FF0D82900029216 /* Base */,
+				9774A2C31FF0D83500029216 /* en */,
+				9774A2C41FF0D88700029216 /* zh-Hans */,
+			);
+			name = "Launch Screen.storyboard";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9737F9FD1F384AFD00000800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9737F9FE1F384AFD00000800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9737FA001F384AFD00000800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A22367CF88A3C831CA728B /* Pods-Atjia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Atjia/Atjia.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 24EZWA34Q6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Atjia",
+					"$(PROJECT_DIR)/Atjia/GtSdkLib",
+				);
+				INFOPLIST_FILE = Atjia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"FSCalendar\"",
+					"-l\"MJRefresh\"",
+					"-l\"Masonry\"",
+					"-l\"Realm\"",
+					"-l\"SDWebImage\"",
+					"-l\"SSZipArchive\"",
+					"-l\"SocketRocket\"",
+					"-l\"TZImagePickerController\"",
+					"-l\"WeexSDK\"",
+					"-l\"YTKNetwork\"",
+					"-l\"YYModel\"",
+					"-l\"YYText\"",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"realmcore-ios\"",
+					"-l\"sqlite3\"",
+					"-l\"sqlite3.0\"",
+					"-l\"stdc++\"",
+					"-l\"stdc++.6.0.9\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AVKit\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"UserNotifications\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.singocloud.cloudhome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = atj;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9737FA011F384AFD00000800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 098403C8D487D468608DB7BF /* Pods-Atjia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Atjia/Atjia.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 24EZWA34Q6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Atjia",
+					"$(PROJECT_DIR)/Atjia/GtSdkLib",
+				);
+				INFOPLIST_FILE = Atjia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"FSCalendar\"",
+					"-l\"MJRefresh\"",
+					"-l\"Masonry\"",
+					"-l\"Realm\"",
+					"-l\"SDWebImage\"",
+					"-l\"SSZipArchive\"",
+					"-l\"SocketRocket\"",
+					"-l\"TZImagePickerController\"",
+					"-l\"WeexSDK\"",
+					"-l\"YTKNetwork\"",
+					"-l\"YYModel\"",
+					"-l\"YYText\"",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"realmcore-ios\"",
+					"-l\"sqlite3\"",
+					"-l\"sqlite3.0\"",
+					"-l\"stdc++\"",
+					"-l\"stdc++.6.0.9\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AVKit\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"UserNotifications\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.singocloud.cloudhome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = atj;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9737F9E31F384AFD00000800 /* Build configuration list for PBXProject "Atjia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9737F9FD1F384AFD00000800 /* Debug */,
+				9737F9FE1F384AFD00000800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9737F9FF1F384AFD00000800 /* Build configuration list for PBXNativeTarget "Atjia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9737FA001F384AFD00000800 /* Debug */,
+				9737FA011F384AFD00000800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9737F9E01F384AFD00000800 /* Project object */;
+}

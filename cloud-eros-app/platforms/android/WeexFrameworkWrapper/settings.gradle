@@ -1,0 +1,9 @@
+include ':app',':sdk',':nexus', ':wxframework',':erospluginamap', ':erospluginwxshare', ':erosplugingt'
+
+// 基础库
+project(':wxframework').projectDir = new File(settingsDir,'/wxframework/eros-framework')
+project(':sdk').projectDir = new File(settingsDir,'/nexus/sdk')
+project(':nexus').projectDir = new File(settingsDir,'/nexus/nexus')
+project(':erospluginamap').projectDir = new File(settingsDir,'/ErosPluginAmap/ErosPluginAmap')
+project(':erospluginwxshare').projectDir = new File(settingsDir,'/erospluginumeng/library-wxshare')
+project(':erosplugingt').projectDir = new File(settingsDir,'/erosplugingt/erosplugingt')

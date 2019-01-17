@@ -1,0 +1,225 @@
+.fdc {
+    flex-direction: column;
+}
+
+.fdr {
+    flex-direction: row;
+}
+
+.jcb {
+    justify-content: space-between;
+}
+
+.jca {
+    justify-content: space-around;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jcs {
+    justify-content: flex-start;
+}
+
+.aic {
+    align-items: center;
+}
+
+/** 宽度相关 **/
+
+.w1 {
+    width: 750px;
+    max-width: 750px;
+}
+
+.w2 {
+    width: 375px;
+}
+
+.w3 {
+    width: 250px;
+}
+
+.w4 {
+    width: 187.5px;
+}
+
+.w5 {
+    width: 150px;
+}
+
+.fwr, .fw {
+    flex-wrap: wrap;
+}
+
+.fn {
+    flex: none;
+}
+
+.fa {
+    flex: auto;
+}
+
+.c0 {
+    color: #fff;
+}
+
+.c6 {
+    color: #666;
+}
+
+.cr, .c1 {
+    color: #E60012;
+}
+
+.c4 {
+    color: #444;
+}
+
+.c7 {
+    color: #757575;
+}
+
+.c9 {
+    color: #999999;
+}
+
+/** 字体颜色 **/
+.text-white {
+    color: #fff;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.f24 {
+    font-size: 24px;
+}
+
+.f26 {
+    font-size: 26px;
+}
+
+.f28 {
+    font-size: 28px;
+}
+
+.f36 {
+    font-size: 36px;
+}
+
+.f32 {
+    font-size: 32px;
+}
+
+.f30 {
+    font-size: 30px;
+}
+
+.f40 {
+    font-size: 40px;
+}
+
+.pt20 {
+    padding-top: 20px;
+}
+
+.pb20 {
+    padding-bottom: 20px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.por {
+    position: relative;
+}
+
+.poa {
+    position: absolute;
+}
+
+.pof {
+    position: fixed;
+}
+
+.bg0 {
+    background-color: #fff;
+}
+
+.bg1 {
+    background-color: #E60012;
+}
+
+.ovh {
+    overflow: hidden;
+}
+
+.ell {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.df {
+    display: flex;
+}
+
+.fw {
+    font-weight: 600;
+}
+
+.bb {
+    border-bottom-style: solid;
+    border-bottom-color: #e2e2e2;
+    border-bottom-width: 1px;
+}
+
+.bt {
+    border-top-style: solid;
+    border-top-color: #e2e2e2;
+    border-top-width: 1px;
+}
+
+.tc {
+    text-align: center;
+}
+
+.lh40 {
+    line-height: 40px;
+}
+
+
+.pl30 {
+    padding-left: 30px;
+}
+.indicator{
+    width: 40px;
+    height: 40px;
+    color: #666;
+}
+.loading{
+    padding-top: 30px;
+}
+.textarea{
+    color: #333333;
+}

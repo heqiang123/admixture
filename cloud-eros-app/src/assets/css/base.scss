@@ -1,0 +1,480 @@
+/**
+ * 这里编写 sass 之后，可在 vue 的 style 标签中通过 @import 相对路径引入
+ * 注意 style 标签的 lang 属性需要设置为 scss/sass
+ */
+
+//字体图标
+.icon {
+  font-family: iconfont;
+  font-size: 30px;
+}
+
+.iconfont{
+  font-family: iconfont2;
+  font-size: 30px;
+}
+
+//字体大小
+.font-10 {
+  font-size: 10px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-22 {
+  font-size: 22px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.font-26 {
+  font-size: 26px;
+}
+
+.font-28 {
+  font-size: 28px;
+}
+
+.font-30 {
+  font-size: 30px;
+}
+
+.font-32 {
+  font-size: 32px;
+}
+
+.font-34 {
+  font-size: 34px;
+}
+
+.font-36 {
+  font-size: 36px;
+}
+
+.font-38 {
+  font-size: 38px;
+}
+
+.font-40 {
+  font-size: 40px;
+}
+
+.font-42 {
+  font-size: 42px;
+}
+
+.font-44 {
+  font-size: 44px;
+}
+
+.font-46 {
+  font-size: 46px;
+}
+
+.font-48 {
+  font-size: 48px;
+}
+
+.font-50 {
+  font-size: 50px;
+}
+
+.font-60 {
+  font-size: 60px;
+}
+
+.font-70 {
+  font-size: 70px;
+}
+
+.font-80 {
+  font-size: 80px;
+}
+
+.font-90 {
+  font-size: 90px;
+}
+
+.font-100 {
+  font-size: 100px;
+}
+
+//字体颜色
+.color-333 {
+  color: #333333;
+}
+
+.color-999 {
+  color: #999999;
+}
+
+.color-bbb {
+  color: #bbbbbb;
+}
+
+.color-cbcbcb{
+  color: #cbcbcb;
+}
+
+.color-ddd {
+  color: #dddddd;
+}
+
+.color-fff {
+  color: #ffffff;
+}
+
+.color-red {
+  color: #E60012;
+}
+
+.color-blue {
+  color: #3F94F6;
+}
+
+.color-green{
+  color: #5AAC00;
+}
+
+//背景颜色
+.bg-eff3f4 {
+  background-color: #eff3f4;
+}
+
+//字体宽度
+.weight-600 {
+  font-weight: 600;
+}
+
+.weight-bold {
+  font-weight: bold;
+}
+
+//容器宽度
+.width-750 {
+  width: 750px;
+}
+
+.fdc {
+  flex-direction: column;
+}
+
+.fdr {
+  flex-direction: row;
+}
+
+.jcb {
+  justify-content: space-between;
+}
+
+.jca {
+  justify-content: space-around;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.jcs {
+  justify-content: flex-start;
+}
+
+.aic {
+  align-items: center;
+}
+
+/** 宽度相关 **/
+
+.w1 {
+  width: 750px;
+  max-width: 750px;
+}
+
+.w2 {
+  width: 375px;
+}
+
+.w3 {
+  width: 250px;
+}
+
+.w4 {
+  width: 187.5px;
+}
+
+.w5 {
+  width: 150px;
+}
+
+.fwr, .fw {
+  flex-wrap: wrap;
+}
+
+.fn {
+  flex: none;
+}
+
+.fa {
+  flex: auto;
+}
+
+.c0 {
+  color: #fff;
+}
+
+.c6 {
+  color: #666;
+}
+
+.cr, .c1 {
+  color: #E60012;
+}
+
+.c4 {
+  color: #444;
+}
+
+.c7 {
+  color: #757575;
+}
+
+.c9 {
+  color: #999999;
+}
+
+/** 字体颜色 **/
+.text-white {
+  color: #fff;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.f24 {
+  font-size: 24px;
+}
+
+.f26 {
+  font-size: 26px;
+}
+
+.f28 {
+  font-size: 28px;
+}
+
+.f36 {
+  font-size: 36px;
+}
+
+.f32 {
+  font-size: 32px;
+}
+
+.f30 {
+  font-size: 30px;
+}
+
+.f40 {
+  font-size: 40px;
+}
+
+.pt20 {
+  padding-top: 20px;
+}
+
+.pb20 {
+  padding-bottom: 20px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.por {
+  position: relative;
+}
+
+.poa {
+  position: absolute;
+}
+
+.pof {
+  position: fixed;
+}
+
+.bg0 {
+  background-color: #fff;
+}
+
+.bg1 {
+  background-color: #E60012;
+}
+
+.ovh {
+  overflow: hidden;
+}
+
+.ell {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.df {
+  display: flex;
+}
+
+.fw {
+  font-weight: 600;
+}
+
+.bb {
+  border-bottom-style: solid;
+  border-bottom-color: #e2e2e2;
+  border-bottom-width: 1px;
+}
+
+.bt {
+  border-top-style: solid;
+  border-top-color: #e2e2e2;
+  border-top-width: 1px;
+}
+
+.tc {
+  text-align: center;
+}
+
+.lh40 {
+  line-height: 40px;
+}
+
+.pl30 {
+  padding-left: 30px;
+}
+
+.indicator {
+  width: 40px;
+  height: 40px;
+  color: #666;
+}
+
+.loading {
+  padding-top: 30px;
+}
+
+.wrapper {
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.button {
+  text-align: center;
+  border-style: solid;
+  color: #ffffff;
+  border-color: #1da1f2;
+  border-radius: 15px;
+  background-color: #1da1f2;
+}
+
+.button-big {
+  width: 400px;
+  height: 90px;
+  margin-top: 60;
+  font-size: 34px;
+  padding-top: 25px;
+  border-width: 2px;
+}
+
+.button-small {
+  width: 180px;
+  height: 80px;
+  margin-top: 30px;
+  font-size: 32px;
+  padding-top: 18px;
+  border-width: 1px;
+}
+
+.label {
+  width: 500px;
+  height: 80px;
+  /*top: 70px;*/
+  margin-top: 40px;
+  font-size: 34px;
+  text-align: center;
+  color: #7d7d7d;
+  font-weight: 500;
+}
+
+.layout {
+  width: 500px;
+  height: 80px;
+  margin-top: 50px;
+  padding-left: 10px;
+  color: #000000;
+  font-size: 34px;
+  border-width: 1px;
+  border-radius: 12px;
+}
+
+.panel {
+  background-color: #ffffff;
+  width: 700px;
+  height: 100px;
+  padding-left: 24px;
+  justify-content: center;
+  border-bottom-width: 1px;
+  border-bottom-color: #b9b9b9;
+  border-style: solid;
+}
+
+.text {
+  font-size: 30;
+  color: #7d7d7d;
+  font-weight: 400;
+}
+
+.arrtName {
+  font-weight: 700;
+}
+
+.touch-bar {
+  height: 68;
+  width: 750;
+}
